@@ -14,7 +14,7 @@
     "format": "{title}"
   },
   "cpu": { 
-    "interval": 10, 
+    "interval": 2, 
     "format": "CPU: {usage}%" 
   },
   "memory": {
@@ -32,6 +32,14 @@
     "format-charging": "{capacity}% (charging)",
     "format-plugged": "{capacity}% (plugged)",
   },
+  
+
+  "backlight": {
+	"device": "intel_backlight",
+	"format": "{percent}%", 
+   },
+
+
   "clock": {
     "format": "{:%Y/%m/%d %H:%M}",
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
